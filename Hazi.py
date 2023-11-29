@@ -1,4 +1,4 @@
-#1.feladat
+5#1.feladat
 import random
 
 szam = int(input("Add meg a hetek számát!"))
@@ -37,18 +37,20 @@ for elem in Támadások:
     if elem >5 and elem <8:
         darab+=1
 
-print(f"Napok száma: {darab}darab")
+print(f"Feltételnek megfelelő napok száma: {darab}darab")
 
 #6.feladat
 
-napok=["Hétfő]","Kedd","Szerda","Csütörtök","Péntek","Szombat","Vasárnap"]
+napok = ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap"]
+het_helye = 0
+nap_helye = 0
+legutolso_legtobb_tamadas_szama = 0
 
-max=Támadások[0]
-maxindex=0
-for i in range(len(Támadások)):
-    if(Támadások[i]>=max):
-        max=Támadások[i]
-        maxindex=i
+for i in range(szam):
+    for j in range(7):
+        if Támadások[i*7+j] >= legutolso_legtobb_tamadas_szama:
+            legutolso_legtobb_tamadas_szama = Támadások[i*7+j]
+            nap_helye = j
+            het_helye = i
 
-print(f"Egy napon történt legtöbb támadás: {max} darab")
-print(f"Helye: {int(maxindex / 7)+1}.hét, {napok[int(maxindex %7)]}")
+print(f"Egy napon megtörtént legtöbb támadás száma: {legutolso_legtobb_tamadas_szama} darab\nHelye: {het_helye+1}. hét, {napok[nap_helye]}")
