@@ -65,3 +65,4 @@ i = 0
 while i < len(lista) & vanE & lista[i] !=5:
     i += 1
 print(""+ str(vanE))
+
