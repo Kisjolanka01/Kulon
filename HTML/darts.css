@@ -1,0 +1,61 @@
+body {
+    background-color: #202020;
+    color: #3C3C3C;
+}
+
+a {
+    color: #8B0000;
+}
+
+table {
+    margin: auto;
+    width: 800px;
+    background-color: #FFD700;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+td {
+    padding: 10px;
+}
+
+#sor {
+    width: 150px;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+p {
+    text-align: justify;
+}
+
+#tabla {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#elhelyezes {
+    float: left;
+    margin-right: 10px;
+}
+
+#hely {
+    padding-top: 10px;
+}
+
+#dartboard {
+    float: right;
+    margin-left: 10px;
+}
