@@ -1,4 +1,4 @@
-'''
+
 while True:
     listaméret = int(input("Adja meg a lsita méretét [10..25]"))
     if listaméret >=10 and listaméret <= 25:
@@ -41,7 +41,7 @@ def adatokBeolvasasa(fajl):
     lista.append(sorok) 
     print(sorok)
     f.close()
-    '''
+    
 
 
 
