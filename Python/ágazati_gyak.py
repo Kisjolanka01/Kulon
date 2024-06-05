@@ -78,6 +78,12 @@ for i in range(len(elemek)):
 print(f"Kettővel oszthatók száma: {db}")
 
 
+keresett_szam = 3
+for szam in elemek:
+    if(szam == keresett_szam):
+        print("Ez a szám egy 3-as")
+    else:
+        print("Ez a szám nem egy 3-as")
 
 
 
