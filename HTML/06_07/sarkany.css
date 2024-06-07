@@ -10,7 +10,7 @@ body{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	border-bottom-right-radius: 25px;
 }
 
 h1{
@@ -30,13 +30,14 @@ p{
   width: 375px;
   float: right;
   text-align: center;
-  font-size: 75%;
+  font-size: 2px ;
   padding: 0px 5px 5px;
   margin-left: 10px;
   background-image: url('fatyol.png');
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 10px 10px 10px gray;  
+  
 }
 
 .kepkeret img{
@@ -48,4 +49,5 @@ p{
 
 a{
   text-decoration: none;
+  width: bold;
 }
