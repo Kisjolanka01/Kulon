@@ -1,4 +1,4 @@
-"""
+
 import random
 
 while True:
@@ -45,11 +45,13 @@ def adatbeolvasas(filename):
     lista = []
     f = open(filename, 'r', encoding="UTF-8")
     for sor in f:
-        sor = sor.replace("\n","").strip().split()
+        lista.append(sor.replace("\n","").strip().split())
         f.close()
-        for szam in sor:
-            lista.append(int(sor))
-        print(lista)"""
+        for i in range(len(lista)):
+            for j in range(len(lista[i])):
+                lista[i][j] = int(lista[i][j])
+                return lista
+            print(lista)
 
 
 
@@ -88,4 +90,4 @@ while True:
 bevetel = 0
 for i in range(len(lista)):
     bevetel += lista[i] * alapar
-print(f"Az 1-es terem bevétele: {alapar}")
+print(f"Az 1-es terem bevétele: {bevetel}")
