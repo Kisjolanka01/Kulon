@@ -1,61 +1,51 @@
 body {
-    background-color: #202020;
-    color: #3C3C3C;
+    background-color:#202020
 }
 
-a {
+p{
+    color: #202020;
+}
+a{
     color: #8B0000;
 }
-
-table {
+table{
     margin: auto;
     width: 800px;
     background-color: #FFD700;
-    border-collapse: collapse;
-    border: 2px solid #000;
-}
+    border: 2px solid transparent;
 
-td {
+}
+td{
     padding: 10px;
 }
-
-#sor {
+#elsocella {
     width: 150px;
     vertical-align: top;
 }
-
-h1 {
+h1{
     text-align: center;
 }
-
-hr {
-    width: 50%;
-}
-
-ul {
-    list-style-type: circle;
-}
-
-p {
+p{
     text-align: justify;
 }
-
-#tabla {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+hr{
+    width: 50%;
 }
-
-#elhelyezes {
+li{
+    list-style-type: circle;
+}
+#tabla{
+    text-align: center;
+}
+#szovegkep{
     float: left;
-    margin-right: 10px;
-}
+    margin: 10px;
 
-#hely {
-    padding-top: 10px;
 }
-
-#dartboard {
+#dartboard{
     float: right;
     margin-left: 10px;
+}
+.ureskor{
+    list-style-type: circle;
 }
